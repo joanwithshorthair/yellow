@@ -1,0 +1,59 @@
+body {
+   width:100%; 
+   height:1240px; 
+   FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#D01D00,endColorStr=#5F0801); /*IE*/ 
+   background:-moz-linear-gradient(top,#D01D00,#5F0801);/*»ðºü*/ 
+   background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#D01D00), to(#5F0801));/*¹È¸è*/ 
+   background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #D01D00),color-stop(1, #5F0801));/* Safari & Chrome*/ 
+   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#D01D00', endColorstr='#5F0801'); /*IE6 & IE7*/ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#D01D00', endColorstr='#5F0801')"; /* IE8 */ 
+
+   font-family:    "Trebuchet MS","Sans-serif";
+   font-size:       small;
+   margin:          0px;
+
+}
+
+#allContent {
+   width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   background: url(image/bonus/headerBackground.png);
+   padding: 5px;
+}
+
+#announcement {
+   display: block;
+   margin: 100px 125px 10px 125px;
+}
+
+#structure {
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+}
+
+#footer {
+   background-color:    #384D5E;
+   color:               white;
+   text-align:          center;
+   padding-top:         10px;
+   padding-bottom:      10px;
+   margin:              10px;
+   width:               650px;
+   margin-left:         auto;
+   margin-right:        auto; 
+   font-size:           80%;
+}
+
+#roulette {
+   position:            absolute;
+   top:                 20px;
+   right:               0px;
+}
+
+#gene {
+   position:            absolute;
+   top:                 650px;
+   left:                0px;
+}
