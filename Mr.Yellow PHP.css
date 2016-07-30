@@ -1,0 +1,137 @@
+body {
+  background: #e2edb5;
+  font-family: "Trebuchet MS","Sans-serif";
+  font-size: small;
+  margin: 0px;
+}
+
+#allcontent {
+  width: 900px;
+  padding:  5px 0px;
+  background-color: rgb(255,198,2);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background-color: rgb(66,69,2);
+  margin: 5px 10px 0px 10px;
+  height: 250px;
+}
+
+#portrait {
+  position: relative;
+  left: 25px;
+  top: 25px;
+}
+
+#greeting {
+  float: right;
+  margin: 35px 25px;
+  padding: 15px;
+}
+
+#main {
+  display: table-cell;
+  background: url(image/background.jpg);
+  margin: 0 0px 10px 10px;
+}
+
+/*Main内部表格*/
+div#tableContainerMain {
+   display: table;  
+   border-spacing: 5px;
+}
+
+div.tableRowMain {
+   display: table-row;
+   background-color: rgba(84,84,30,0.7);
+} 
+
+div.selfie {
+   display: table-cell;
+   padding: 5px;
+   vertical-align: center;
+}
+
+div.diary {
+   display: table-cell;
+   vertical-align: top;   
+}
+
+img#age1, #age2, #age3a, #age3b, #age4, #age5, #age6 {
+   display: block;
+   margin: auto;
+   vertical-align: center;
+}
+
+#age6 {
+   margin-top: 16px;
+}
+
+/*Main内部表格结束*/
+
+#sidebar {
+  display: table-cell;
+  background-color: #96990A;
+  padding: 10px;
+  margin:  10px 10px 10px 10px;
+  vertical-align: top;
+  width: 30%;
+}
+
+#QRCode  {
+  display: block;
+  margin: auto;
+}
+
+#footer {
+  background-color: rgb(66,69,2);
+  color: #B4B518;
+  font-size: 80%;
+  padding: 15px;
+  margin: 0px 10px 5px 10px;
+  text-align: center;
+  clear: right;
+}
+
+div#tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+
+div#tableRow {
+  display: table-row;
+}
+  
+h1 {
+   color: white;
+   font: bold 150%/1.5em "Trebuchet MS";
+}
+
+h1.black {
+   color: black;  
+}
+
+p  {
+   color: rgb(255,198,2);
+   font: 110%/1.3em "Comic Sans MS";
+}
+
+hr { 
+   height:  1px;
+   border:  none;
+   border-top:  2px dashed rgb(255,198,2);
+}
+
+
+#bonus {
+   position: fixed;
+   top:     70%;
+   right:   -15px;
+}
+
+#bonus a:hover img {
+   width: 130%;
+   length: 130%;
+}
